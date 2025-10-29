@@ -1,4 +1,7 @@
-
+@font-face {
+font-family: "fright";
+src: url("https://www.dafont.com/fright-maiden.font");
+}
 
 * {
   margin: 0;
@@ -31,60 +34,62 @@ p{
 }
 
 .name {
-  background-color: ;
-  color: ;
-  border: 5px solid ;
+  font-family: times, serif;
+  background-color: black;
+  color: white;
+  border: 5px solid green;
 }
 
 .hex {
-  background-color: ;
-  color: ;
-  border: 5px solid ;
+  background-color: #172c66;
+  color: #fef6e4;
+  border: 5px solid  #f582ae;
+  font-family: cursive;
 }
 
 .rgb {
-  background-color: ;
-  color: ;
-  border: 5px solid ;
+  background-color: rgb(1, 17, 38);
+  color: rgb(242, 242, 242);
+  border: 5px solid solid rgb(64, 115, 68);
   font-size: 40px;
 }
 
 .hsl {
-  background-color: ;
-  color: ;
-  border: 5px solid ;
+  background-color: hsl(0, 60%, 34%);
+  Color: hsla(0, 0%, 95%, .8);
+  border: 5px solid hsl(0, 87%, 59%);
 }
 
 .hue1 {
-  background-color: ;
+  background-color: hsl(60, 60%, 34%);
 }
 
 .hue2 {
-  background-color: ;
+  background-color: hsl(240, 60%, 34%);
 }
 
 .sat1 {
-  background-color: ;
+  background-color:  hsl(0, 100%, 34%);
 }
 
 .sat2 {
-  background-color: ;
+  background-color: hsl(0, 50%, 34%);
 }
 
 .sat3 {
-  background-color: ;
+  background-color: hsl(0, 0%, 34%)
 }
 
 .light1{
-  background-color: ;
+  background-color: hsl(0, 60%, 0%);
 }
 
 .light2{
-  background-color: ;
+  background-color: hsl(0, 60%, 50%);
 }
 
 .light3{
-  background-color: ;
+  background-color: hsl(0, 60%, 100%);
 }
 
 .row {
